@@ -26,5 +26,5 @@ if (userInput >= str.length){
     newstr = str.slice(userInput) + str.slice(0, userInput);
     console.log(newstr);
 } else{
-    console.log("Unexpected-Error / Invalid-Input")
+    console.log("Unexpected-Error / Invalid-Input");
 }
